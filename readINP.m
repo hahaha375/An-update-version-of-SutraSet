@@ -2,8 +2,6 @@ function [o2]=readINP(varargin)
 % This file was created to read the SUTRA input data set
 % Especially for Data set 22, because it records the mesh structure
 % (In Chinese UTF-8)
-% 这个脚本用于读取SUTRA的input file，主要目的是为了获取data set 22的数据
-% 因为data set 22中记录了网格的structure
 % Liu Yuxuan 2023
 
   %% a string storing the caller functions
@@ -170,4 +168,5 @@ else
     error('Some error occured, plese check the data or contact the author\n')
 end
 fclose all;
+
 end
